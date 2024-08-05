@@ -1,0 +1,96 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #EEE!important;
+}
+.food-btn button{
+  margin-left: 40px;
+}
+.card1{
+  height: 100px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card1 .card1-left{
+  height: 100px;
+  width: 30%;
+  float: left;
+}
+.card1 .card1-right{
+  height: 100px;
+  width: 70%;
+  float: left;
+}
+.card1 .card1-right h4{
+  padding: 5px 10px 0px 15px;
+}
+.card1 .card1-right span{
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-top: -5px;
+}
+.btn h6{
+  margin-left: 2px;
+}
+.btn button{
+  border: none;
+  margin-left: 70px;
+}
+#fastfood{
+  height: 200px;
+  width: 120px;
+  background-color: red;
+  position: absolute;
+  z-index: 9999;
+  right: 66%;
+  top: 100%;
+  display: none;
+  animation: growDown 600ms ease-in-out forwards;
+  transform-origin: top center;
+}
+@keyframes growDown {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}
+#drop{
+  padding-left: 5px;
+}
+
+/* ----- for area start here ---- */
+.form{
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #fff;
+  margin-top: 10%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#label{
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  font-size: 400;
+}
+::placeholder{
+  font-size: 14.5px;
+}
+#btn{
+  margin-top: 15px;
+  float: right;
+}
+#nameValid{
+  color:red;
+  margin-left: 5px;
+  margin-top: -1px;
+  font-weight: 500;
+  font-size: 13px;
+  display: none;
+}
